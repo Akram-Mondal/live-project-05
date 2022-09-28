@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+.container 
+{
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat; 
+  background-size: 1536px 760px;
+  height: 100vh; 
+  
+} 
+/* ------navbar----- */
+ .navbar
+{
+    display: flex;
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar img
+{
+  position: absolute;
+  left: 100px;
+}
+.list-item
+{
+  display: inline;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #ffffff;
+}
+.list-item:hover
+{
+  cursor: pointer;
+}
+.grow-list
+{
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left: 335px;
+  border-left: 1px solid #ffffff;
+}
+.button-small
+{
+  position: absolute;
+  right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  font-size: 15px;
+  background-color:#cd26ca;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 0px; 
+  margin-top: 10px;
+}
+
+/* ------ Hero Section ------ */
+.hero-heading
+{
+    position: absolute;
+    top: 215px;
+    left: 415px;
+    right: 335px;
+    color: #ffffff;
+    font-size: 84px;
+    text-align: center;
+    margin: 0px;
+}
+.hero-description
+{
+    position:absolute;
+    top: 408px;
+    left: 530px;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0px;
+}
+.button-large
+{
+    position: absolute;
+    bottom: 210px;
+    left: 660px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    font-size: 27px;
+    background-color:#cd26ca;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 0px; 
+} 
